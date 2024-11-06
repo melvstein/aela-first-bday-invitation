@@ -39,7 +39,8 @@
     left: 0;
     right: 0;
     height: 10px;
-    background: #000000;
+    background: #a8b8ad;
     transform-origin: 0%;
+    z-index: 20;
   }
 }
