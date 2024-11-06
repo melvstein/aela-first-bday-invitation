@@ -45,7 +45,7 @@ export default function Home() {
                         <Image src={Fairy2} alt="fairy2" className="w-auto h-full md:max-w-[200px] max-w-[100px] -scale-x-100" />
                     </motion.div>
 
-                    <motion.div className="fixed md:top-[50px] md:left-[50px] top-[20px] left-[20px] -z-10"
+                    <motion.div className="fixed md:top-[50px] md:left-[50px] top-[20px] left-[20px] z-10"
                         animate={{
                             y: ['-50px', '50px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -60,7 +60,7 @@ export default function Home() {
                         <Image src={Fairy3} alt="fairy3" className="w-auto h-full md:max-w-[200px] max-w-[100px]" />
                     </motion.div>
 
-                    <motion.div className="fixed md:bottom-[50px] md:left-[50px] bottom-[20px] left-[20px] -z-10"
+                    <motion.div className="fixed md:bottom-[50px] md:left-[50px] bottom-[20px] left-[20px] z-10"
                         animate={{
                             y: ['-20px', '20px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                     <div className="md:py-16 md:px-20 p-8 relative flex items-center justify-center">
                         <div>
-                            <Image src={Paper2} alt="paper" className="absolute w-full h-auto min-h-[500px] max-h-[600px] top-0 bottom-0 left-0 right-0 -z-10" />
+                            <Image src={Paper2} alt="paper" className="absolute w-full h-auto min-h-[550px] max-h-[600px] top-0 bottom-0 left-0 right-0 -z-10" />
                         </div>
                         <div className="flex flex-col items-center justify-between md:space-y-8 space-y-4 uppercase md:text-2xl text-xl text-center">
                             <div className="flex flex-col items-center justify-center space-y-4">
