@@ -103,11 +103,11 @@ export default function Home() {
                             <Image src={Wings1} alt="wings1" className="w-auto h-full md:max-w-[600px]" />
                         </motion.div> */}
                     </div>
-                    <div className="md:py-16 md:px-20 p-8 relative flex items-center justify-center">
+                    <div className="xl:p-20 lg:p-10 sm:p-20 p-8 relative">
                         <div>
-                            <Image src={Paper2} alt="paper" className="absolute w-full h-auto min-h-[550px] max-h-[600px] top-0 bottom-0 left-0 right-0 -z-10" />
+                            <Image src={Paper2} alt="paper" className="absolute w-full h-auto lg:max-h-[700px] md:min-h-[300px] min-h-[550px] top-0 bottom-0 left-0 right-0 -z-10 items-center" />
                         </div>
-                        <div className="flex flex-col items-center justify-between md:space-y-8 space-y-4 uppercase md:text-2xl text-xl text-center">
+                        <div className="flex flex-col items-center justify-between md:space-y-8 space-y-4 uppercase sm:text-2xl text-xl text-center">
                             <div className="flex flex-col items-center justify-center space-y-4">
                                 <p className="md:text-4xl text-2xl flex items-center justify-center">
                                     {"Calling all Fairies"}
