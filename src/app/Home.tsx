@@ -1,16 +1,11 @@
 "use client"
 
 import Image from "next/image";
-import AelaFairy2 from "../../public/images/aela/aela_fairy2.png";
-import AelaFairy3 from "../../public/images/aela/aela_fairy3.png";
 import AelaFairyWithWings from "../../public/images/aela/aela_fairy_with_wings.png";
 import Fairy1 from "../../public/images/fairy1.png";
 import Fairy2 from "../../public/images/fairy2.png";
 import Fairy3 from "../../public/images/fairy3.png";
 import Fairy4 from "../../public/images/fairy4.png";
-import Wings1 from "../../public/images/wings1.png";
-import Wings2 from "../../public/images/wings2.png";
-import Paper1 from "../../public/images/paper1.png";
 import Paper2 from "../../public/images/paper2.png";
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';

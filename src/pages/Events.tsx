@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import AelaRabbit1 from "../../public/images/aela/aela_rabbit1.png";
-import AelaRabbit2 from "../../public/images/aela/aela_rabbit2.png";
 import AelaRabbit3 from "../../public/images/aela/aela_rabbit3.png";
 import Church from "../../public/images/church.png";
 import { motion } from "framer-motion";

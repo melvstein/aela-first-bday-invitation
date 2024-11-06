@@ -1,5 +1,5 @@
-import FairyLand from "@/pages/FairyLand";
-import Christening from "../pages/Events";
+/* import FairyLand from "@/pages/FairyLand";
+import Christening from "../pages/Events"; */
 import Home from "./Home";
 
 export default function Page() {
