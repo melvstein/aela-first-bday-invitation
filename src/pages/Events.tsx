@@ -92,7 +92,6 @@ export default function Events() {
                             <p>{"Darwin Saliganan"}</p>
                             <p>{"Erickson Bayogo"}</p>
                             <p>{"Raylord Munar"}</p>
-                            <p>{"John Arvin Raule"}</p>
                         </div>
                         <div className="flex flex-col items-center justify-start space-y-2 text-center">
                             <h3 className="text-4xl">
@@ -100,6 +99,7 @@ export default function Events() {
                             </h3>
                             <p>{"Mikka Bayogo"}</p>
                             <p>{"Lovhe Bayogo Miniao"}</p>
+                            <p>{"Janine Anrose Ocampo"}</p>
                             <p>{"Jezreel Joy Ocampo"}</p>
                             <p>{"Shiela Mercado"}</p>
                             <p>{"Louise Nadine Domingo"}</p>
