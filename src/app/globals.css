@@ -42,5 +42,6 @@
     background: #a8b8ad;
     transform-origin: 0%;
     z-index: 20;
+    @apply bg-slate-300;
   }
 }

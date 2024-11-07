@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={clsx(geistSans.variable, geistMono.variable, fairyText1.variable, fairyText2.variable, fairyText3.variable, "antialiased relative text-slate-700")}
+        className={clsx(geistSans.variable, geistMono.variable, fairyText1.variable, fairyText2.variable, fairyText3.variable, "antialiased relative text-slate-800")}
       > 
       <motion.div
         className="progress-bar"

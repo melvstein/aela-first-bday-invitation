@@ -12,10 +12,10 @@ import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
-        <div className="min-h-screen flex items-center justify-center relative">
-            <div className="container mx-auto md:p-8 p-4">
+        <section id="home" className="min-h-screen flex items-center justify-center relative">
+            <div className="container mx-auto p-4">
                 <div>
-                    <motion.div className="fixed md:bottom-[50px] md:right-[50px] bottom-[20px] right-[20px] z-10"
+                    <motion.div className="fixed md:bottom-[50px] md:right-[50px] bottom-[20px] right-[20px] z-20"
                         animate={{
                             y: ['-50px', '50px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -30,7 +30,7 @@ export default function Home() {
                         <Image src={Fairy1} alt="fairy1" className="w-auto h-full md:max-w-[200px] max-w-[100px]" />
                     </motion.div>
 
-                    <motion.div className="fixed md:top-[50px] md:right-[50px] top-[20px] right-[20px] z-10"
+                    <motion.div className="fixed md:top-[50px] md:right-[50px] top-[20px] right-[20px] z-20"
                         animate={{
                             y: ['-50px', '50px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -45,7 +45,7 @@ export default function Home() {
                         <Image src={Fairy2} alt="fairy2" className="w-auto h-full md:max-w-[200px] max-w-[100px] -scale-x-100" />
                     </motion.div>
 
-                    <motion.div className="fixed md:top-[50px] md:left-[50px] top-[20px] left-[20px] z-10"
+                    <motion.div className="fixed md:top-[50px] md:left-[50px] top-[20px] left-[20px] z-20"
                         animate={{
                             y: ['-50px', '50px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -60,7 +60,7 @@ export default function Home() {
                         <Image src={Fairy3} alt="fairy3" className="w-auto h-full md:max-w-[200px] max-w-[100px]" />
                     </motion.div>
 
-                    <motion.div className="fixed md:bottom-[50px] md:left-[50px] bottom-[20px] left-[20px] z-10"
+                    <motion.div className="fixed md:bottom-[50px] md:left-[50px] bottom-[20px] left-[20px] z-20"
                         animate={{
                             y: ['-20px', '20px'], // Move up and down
                             x: ['-50px', '50px'], // Move slightly side to side
@@ -76,8 +76,26 @@ export default function Home() {
                     </motion.div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1">
-                    <div className="flex items-center justify-center p-4">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                    <div className="flex flex-col items-center justify-center p-4 space-y-4">
+                        <div className="md:text-5xl text-3xl font-bold flex flex-col items-center justify-center w-full">
+                            <p>{"Hi I'm"}</p>
+                            <Typewriter
+                                onInit={(typewriter) => {
+                                    typewriter.typeString("Aela Melodie")
+                                    .pauseFor(1000)
+                                    .deleteAll(100)
+                                    .typeString('Turning 1 year old on Dec 1, 2024')
+                                    .pauseFor(1000)
+                                    .start();
+                                }}
+
+                                options={{
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </div>
                         <motion.div
                             animate={{
                                 y: ['-20px', '20px'], // Move up and down
@@ -104,8 +122,8 @@ export default function Home() {
                         </motion.div> */}
                     </div>
                     <div className="xl:p-20 lg:p-10 sm:p-20 p-8 relative">
-                        <div>
-                            <Image src={Paper2} alt="paper" className="absolute w-full h-auto lg:max-h-[700px] md:min-h-[300px] min-h-[550px] top-0 bottom-0 left-0 right-0 -z-10 items-center" />
+                        <div className="w-full">
+                            <Image src={Paper2} alt="paper" className="absolute w-full h-full top-0 bottom-0 left-0 right-0 -z-10" />
                         </div>
                         <div className="flex flex-col items-center justify-between md:space-y-8 space-y-4 uppercase sm:text-2xl text-xl text-center">
                             <div className="flex flex-col items-center justify-center space-y-4">
@@ -117,9 +135,10 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="md:text-5xl text-3xl font-bold flex items-center justify-center">
-                                <Typewriter
+                                {"Aela Melodie's"}
+                                {/* <Typewriter
                                     onInit={(typewriter) => {
-                                        typewriter.typeString("Aela Melodie's")
+                                        typewriter.typeString()
                                         .pauseFor(1000)
                                         .start();
                                     }}
@@ -128,7 +147,7 @@ export default function Home() {
                                         autoStart: true,
                                         loop: false,
                                     }}
-                                />
+                                /> */}
                             </div>
                             <div className="flex flex-col items-center justify-center space-y-4">
                                 <p className="flex items-center justify-center">
@@ -150,6 +169,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
