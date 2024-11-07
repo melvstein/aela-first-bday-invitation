@@ -99,7 +99,7 @@ export default function Events() {
                             </h3>
                             <p>{"Mikka Bayogo"}</p>
                             <p>{"Lovhe Bayogo Miniao"}</p>
-                            <p>{"Janine Anrose Ocampo"}</p>
+                            <p>{"Janine Anne Rose Ocampo"}</p>
                             <p>{"Jezreel Joy Ocampo"}</p>
                             <p>{"Shiela Mercado"}</p>
                             <p>{"Louise Nadine Domingo"}</p>
