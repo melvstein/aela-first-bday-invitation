@@ -159,10 +159,12 @@ export default function Home() {
                             </div>
                             <div className="flex flex-col items-center justify-center space-y-4">
                                 <p className="text-center flex items-center justify-center">
-                                    {'"I prayed for this child, and the Lord has granted me what I asked of him."'}
+                                    {/* {'"I prayed for this child, and the Lord has granted me what I asked of him."'} */}
+
+                                    {'"For this child I prayed and the Lord has granted the desires of my heart."'}
                                 </p>
                                 <p className="flex items-center justify-center">
-                                    {"-Samuel 1:27"}
+                                    {"- 1 Samuel 1:27"}
                                 </p>
                             </div>
                         </div>
