@@ -88,9 +88,11 @@ export default function Events() {
                             <p>{"Kenneth Pascual"}</p>
                             <p>{"John Bautista"}</p>
                             <p>{"Michael Roy Bulawan"}</p>
+                            <p>{"Marc Amparo"}</p>
                             <p>{"Darwin Saliganan"}</p>
                             <p>{"Erickson Bayogo"}</p>
                             <p>{"Raylord Munar"}</p>
+                            <p>{"John Arvin Raule"}</p>
                         </div>
                         <div className="flex flex-col items-center justify-start space-y-2 text-center">
                             <h3 className="text-4xl">
