@@ -10,8 +10,6 @@ import { SlEnvolopeLetter } from "react-icons/sl";
 import { useState } from "react";
 import { RiMenuFold3Fill as CloseMenu } from "react-icons/ri";
 import { RiMenuUnfold4Fill as OpenMenu } from "react-icons/ri";
-import { div } from "framer-motion/client";
-import { motion } from "framer-motion";
 
 const navs = [
     {
