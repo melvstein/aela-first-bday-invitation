@@ -83,10 +83,10 @@ export default function Home() {
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter.typeString("Aela Melodie")
-                                    .pauseFor(1000)
+                                    .pauseFor(1000)/* 
                                     .deleteAll(100)
                                     .typeString('Turning 1 year old on Dec 1, 2024')
-                                    .pauseFor(1000)
+                                    .pauseFor(1000) */
                                     .start();
                                 }}
 
