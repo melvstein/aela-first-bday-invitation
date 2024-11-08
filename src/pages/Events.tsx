@@ -60,7 +60,7 @@ export default function Events() {
                                 <span className="text-2xl">Date:</span> {"November 30, 2024, Saturday"}
                             </p> */}
                             <p>
-                                <span className="text-2xl">Time:</span> {"11:30 AM - 5:00 PM"}
+                                <span className="text-2xl">Time:</span> {"12:00 PM - 5:00 PM"}
                             </p>
                         </div>
                         <div className="flex items-center justify-center w-full">
